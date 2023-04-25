@@ -1,0 +1,181 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+body{
+    /* background-color: #D2B4DE; */
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+th{
+    text-align: left;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.container{
+    padding-top: 16px;
+    width: 100vw;
+    display: grid;
+    place-items: start center;
+}
+input{
+    border: none;
+    outline: none;
+    margin-top: 10px;
+    padding: 5px 9px;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.btn{
+    background-color:lightblue;
+    color:black;
+    cursor: pointer;
+    padding: 10px 26px;
+    margin-top: 15px;
+    text-align: center;
+    margin-right: 10px;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+.butt{
+    display: flex;
+    justify-content: end;
+}
+.form{
+    border: 1px solid salmon;
+    padding: 20px;
+    background-color:rgb(59, 159, 159);
+    color: white;
+    border-radius: 10px;
+}
+input[type="text"], input[type="number"], input[type="email"]{
+    width: 70%;
+}
+.btn:hover{
+    background-color: rgb(50, 220, 169);
+    opacity: 1;
+    color: white;
+    transition: .2s;   
+}
+input[type="radio"]{
+    margin-right: 5px;
+
+}
+input:focus{
+    background-color:mintcream;
+}
+.datas{
+    width: 45%;
+
+
+
+}
+.tab{
+    margin: 0 auto;
+    width: 100%;
+    margin: 10px;
+}
+h2{
+    margin-top: 15px;
+    margin-bottom: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.tab thead tr th, .tab tbody tr td, tr{
+    border: 1px solid aquamarine;
+    border-collapse: collapse;
+
+}
+.tab, .tab thead, .tab tbody{
+    border-collapse: collapse;
+}
+.tab tbody tr:nth-child(odd){
+    background-color:mediumslateblue;
+    color: white;
+}
+.tab tbody tr:nth-child(even){
+    background-color:#a12d91;
+    color: white;
+}
+.tab tr:first-child{
+    background-color: gray;
+    color: white;
+}
+.tab tbody tr td{
+    padding: 7px;
+    text-align: center;
+}
+.tab thead tr th{
+    padding: 7px;
+}
+.tab thead th{
+    text-align: center;
+}
+.tab th, .tab td{
+    font-size: 13px;
+}
+.tab tbody tr{
+    height: 100px;
+}
+.table-data, .datas{
+    width: 100%;
+    display: grid;
+    place-items:  center center;
+}
+@media only screen and (max-width:500px){
+    body{
+        width: 500px;
+    }
+    .container{
+        width: 480px;
+        margin: 0 auto;
+    }
+    .form{
+        padding: 10px;
+        width: 100%;
+    }
+    input[type="text"], input[type="number"], input[type="email"]{
+        width: 90%;
+    }
+    label{
+        font-size: 14px;
+        width: 80%;
+    }
+    .table-data{
+        width: 100%;
+        display: grid;
+        place-items: center;
+    }
+    .datas{
+        width: 480px;
+        margin: 0 auto;
+    
+    }
+    .tab{
+        width: 100%;
+    }
+    input{
+        margin-bottom: 5px;
+    }
+    .btn{
+        padding: 5px 13px;
+        font-size: 14px;
+    }
+    .tab th, .tab td{
+        font-size: 12px;
+    }
+    .tab thead tr th:last-child, .tab tbody tr td{
+        font-size: 10px;
+        padding: 7px 2px;
+    }
+
+
+}

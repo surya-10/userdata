@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Details</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+    <form class="form">
+        <table>
+            <tr>
+                <th>
+                    <label for="first">First Name</label>
+                </th>
+                <td>
+                    <input type="text" id="first" placeholder="Enter your first name">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="last">Last Name</label>
+                </th>
+                <td>
+                    <input type="text" id="last" placeholder="Enter your last name">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="add">Enter your address</label>
+                </th>
+                <td>
+                    <input type="text" id="add" placeholder="Enter your address">
+                </td>
+
+            </tr>
+            <tr>
+                <th>
+                    <label for="pin-numer">Enter your pin code</label>
+                </th>
+                <td>
+                    <input type="number" id="pin-numer">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Select your gender</label>
+                </th>
+                <td>
+                    <input type="radio" value="Male" name="gender" class="gender" id="m"><label for="m">Male</label>
+                    <input type="radio" value="Female" name="gender" class="gender" id="f"><label for="f">Female</label>
+
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label>Select atleast two foods</label>
+                </th>
+                <td>
+                    <input type="checkbox" id="food1" name="food1" value="Dosa" class="checks">
+                    <label for="food1">Dosa</label>
+                    <input type="checkbox" id="food2" name="food2" value="Pongal" class="checks">
+                    <label for="food2">Pongal</label>
+                    <input type="checkbox" id="food3" name="food3" value="Poori" class="checks">
+                    <label for="food3">Poori</label>
+                    <input type="checkbox" id="food4" name="food4" value="Idly" class="checks">
+                    <label for="food4">Idly</label>
+                    <input type="checkbox" id="food5" name="food5" value="Parota" class="checks">
+                    <label for="food5">Parota</label>
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="stat">Enter your State Name</label>
+                </th>
+                <td>
+                    <input type="text" id="stat" placeholder="Enter your state name">
+                </td>
+            </tr>
+            <tr>
+                <th>
+                    <label for="count">Enter your email address</label>
+
+                </th>
+                <td>
+                    <input type="email" id="count" placeholder="Enter your Email id" required>
+                </td>
+            </tr>
+
+        </table>
+        <div class="butt">
+            <div class="new-btn">
+                <input type="submit" value="Submit" class="btn">
+            </div>
+        </div>
+        
+    </form>
+<div class="table-data">
+<div class="datas">
+    <h2>Added Datas</h2>
+    <table class="tab">
+        <thead>
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Address</th>
+            <th>Pincode</th>
+            <th>Gender</th>
+            <th>Food</th>
+            <th>State</th>
+            <th>Email</th>
+        </tr>
+        <tbody class="table-body">
+            
+        </tbody>
+    </thead>
+
+    </table>
+</div>
+</div>
+</div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
